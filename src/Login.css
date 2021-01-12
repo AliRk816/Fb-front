@@ -1,0 +1,43 @@
+.Login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.Login > div > img{
+    object-fit: contain;
+    height: 150px;
+}
+
+.Login > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    width: 300px;
+    background-color: #2e81f4;
+    color: #eff2f5;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: #eff2f5;
+    color: #2e81f4;
+    border: solid 1px #2e81f4;
+}
+
+.input{
+    width: 300px;
+    height: 40px;
+    border: solid 1px #DBDBDB;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+}
